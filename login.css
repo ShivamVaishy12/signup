@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hotpink;
+    font-family: 'Kanit', sans-serif;
+}
+.pinky,a{
+    display: block;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: rgba(95, 158, 160, 0.873);
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+}
+form h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+form label{
+    color: white;
+    font-size: 20px;
+}
+form .paisa{
+    width: 90%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+}
+#cancel{
+    background-color: red;
+}
+form a{
+    text-decoration: none;
+    color: white;
+}
+.fa-user-graduate{
+    position: absolute;
+    top: 64%;
+    left: 2%;
+}
+#user{
+    position: relative;   
+}
+input{
+    padding-left: 30px;
+}
+.fa-lock{
+    position: absolute;
+    top: 53%;
+    left: 35.5%;
+}
